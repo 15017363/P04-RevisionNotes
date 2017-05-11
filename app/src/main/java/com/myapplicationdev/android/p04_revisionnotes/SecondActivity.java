@@ -21,7 +21,7 @@ public class SecondActivity extends AppCompatActivity {
 
         lv = (ListView)findViewById(R.id.lv);
 
-        Intent intentReceived = getIntent();
+//        Intent intentReceived = getIntent();
         DBHelper db = new DBHelper(SecondActivity.this);
         notesArrayList = db.getAllNotes();
 
